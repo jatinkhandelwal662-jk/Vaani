@@ -15,7 +15,8 @@ Delhi Sudarshan is a Next-Gen Civic Grievance System powered by **Google Gemini 
 
 ### 🕵️‍♂️ 2. The "Surprise Audit" System (Twilio Integration)
 - **Automated Verification:** The system calls citizens automatically to verify if work claimed as "Solved" was actually done.
-- **Corruption Check:** If a citizen denies the fix on the call (pressing '2'), the system flags the official for corruption immediately.
+- **Corruption Check:** If a citizen denies the fix on the call (pressing '2'), the system flags the official for corruption immediately.If a citizen verified the fix on the call (pressing '1'), the system flags the official verified genuine.
+
 
 ### ⚡ 3. Emergency Triage & Prioritization
 - **Smart Sorting:** Complaints are not sorted by date, but by **severity**.
