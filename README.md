@@ -11,7 +11,7 @@ Delhi Sudarshan is a Next-Gen Civic Grievance System powered by **Google Gemini 
 ### 🗣️ 1. AI Officer "Vaani" (Gemini Live API)
 - **Zero-Latency Voice AI:** Converses naturally in **Hindi & English**.
 - **Context Aware:** Understands complex complaints like "My street light is sparking" vs "It is just off".
-- **Critical Safety Protocol:** Instantly detects emergencies (Fire, Open Manholes, Gas Leaks) and triggers a **Red Alert** on the dashboard.
+- **Critical Safety Protocol:** Instantly detects emergencies (Transform Sparking, Open Manhole, Roads collapsed, Main Pipeline burst) and triggers a **Red Alert** on the dashboard.
 
 ### 🕵️‍♂️ 2. The "Surprise Audit" System (Twilio Integration)
 - **Automated Verification:** The system calls citizens automatically to verify if work claimed as "Solved" was actually done.
@@ -29,21 +29,9 @@ Delhi Sudarshan is a Next-Gen Civic Grievance System powered by **Google Gemini 
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js, Vite, Tailwind CSS (Deployed on Vercel)
-- **AI Core:** Google Gemini Multimodal Live API (WebSocket)
+- **AI Core:** Google Gemini 2.5 Flash Multimodal Live API
 - **Backend:** Node.js, Express (Deployed on Render)
 - **Telephony:** Twilio Programmable Voice & WebRTC
 - **Visualization:** Real-time Audio Frequency Visualizer
 
 ---
-
-## 📸 Project Screenshots
-
-*(You can upload screenshots of your Dashboard and Citizen Call screen here later)*
-
----
-
-## 🔧 Setup Instructions
-
-1. **Clone the Repo**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/delhi-sudarshan.git](https://github.com/YOUR_USERNAME/delhi-sudarshan.git)
