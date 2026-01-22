@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Delhi Sudarshan Civic Services - AI Officer Vaani",
+  "description": "A voice-enabled AI assistant that registers civic complaints for Delhi citizens. Powered by Gemini Live API for low-latency bilingual conversations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

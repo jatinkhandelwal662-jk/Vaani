@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Delhi Sudarshan Command Center</title>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Your existing styles... */
+        :root {
+            --accent-indigo: #6366f1;
+            --accent-cyan: #22d3ee;
+            --bg-deep: #050811;
+        }
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        body { 
+          font-family: 'Space Grotesk', sans-serif; 
+          background-color: var(--bg-deep);
+          color: #f8fafc;
+          letter-spacing: -0.01em;
+        }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        .bg-neural {
+            background: 
+                radial-gradient(circle at 50% -20%, rgba(99, 102, 241, 0.12), transparent 70%),
+                radial-gradient(circle at 10% 100%, rgba(34, 211, 238, 0.04), transparent 50%),
+                var(--bg-deep);
+        }
+        .floating-orb {
+            position: relative;
+            background: linear-gradient(145deg, var(--accent-indigo), #4f46e5);
+            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+            border: none;
+            box-shadow: 0 10px 40px -10px rgba(99, 102, 241, 0.4);
+        }
+        .floating-orb:hover {
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 0 25px 60px -12px rgba(99, 102, 241, 0.7);
+            filter: brightness(1.1);
+        }
+        .floating-orb:active {
+            transform: translateY(0) scale(0.95);
+        }
+        @keyframes orb-pulse {
+            0% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4); }
+            70% { box-shadow: 0 0 0 30px rgba(99, 102, 241, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0); }
+        }
+        .pulse-active {
+            animation: orb-pulse 2s infinite;
+        }
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.3);
+            backdrop-filter: blur(50px) saturate(200%);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+        }
+        @keyframes slide-up {
+            from { transform: translateY(15px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animate-slide-up { animation: slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: rgba(99, 102, 241, 0.2);
+          border-radius: 10px;
+          border: 2px solid transparent;
+          background-clip: padding-box;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(99, 102, 241, 0.4); }
+    </style>
+</head>
+<body class="bg-neural">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
