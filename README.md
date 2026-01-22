@@ -3,7 +3,6 @@
 **"Proactive Governance. Instant Redressal. Zero Latency."**
 
 **LIVE DEMO:** [Click Here to Talk to Vaani](https://vaani-khaki.vercel.app) 
-[![Citizen Call Demo](https://img.shields.io/badge/Citizen_Sim-Test_Call-7B1FA2?style=for-the-badge&logo=twilio)](https://delhi-sudarshan-backend.onrender.com/citizen.html)
 
 ---
 
