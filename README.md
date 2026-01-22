@@ -2,6 +2,10 @@
 
 **"Proactive Governance. Instant Redressal. Zero Latency."**
 
+**LIVE DEMO:** [Click Here to Talk to Vaani](https://vaani-khaki.vercel.app) 
+
+---
+
 Delhi Sudarshan is a Next-Gen Civic Grievance System powered by **Google Gemini Multimodal AI**. It replaces traditional IVR systems with **"Vaani"**, a hyper-realistic AI officer that talks to citizens, detects emergencies, and performs surprise audits on government officials.
 
 ---
@@ -36,3 +40,4 @@ Delhi Sudarshan is a Next-Gen Civic Grievance System powered by **Google Gemini 
 - **Visualization:** Real-time Audio Frequency Visualizer
 
 ---
+## 
